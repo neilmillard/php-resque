@@ -23,6 +23,9 @@ class Resque_Redis
 	 */
 	private $keyCommands = array(
 		'exists',
+        'hget',
+        'hset',
+        'hgetall',
 		'del',
 		'type',
 		'keys',
@@ -151,7 +154,8 @@ class Resque_Redis
                 $args[0] = self::$defaultNamespace . $args[0];
             }
 		}
-		try {
+		try{
+
 			return $this->driver->__call($name, $args);
 		}
 		catch(CredisException $e) {
