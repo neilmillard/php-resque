@@ -15,7 +15,11 @@
 		{
 			"type": "vcs",
 			"url": "https://github.com/chrisboulton/credis"
-		}
+		},
+		{
+	            "type": "vcs",
+	            "url": "git@github.com:rafaelcalleja/php-resque-scheduler"
+	        }
 	],
 	"require": {
 		"php": ">=5.3.0",
