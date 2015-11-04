@@ -13,8 +13,8 @@
 	],
 	"repositories": [
 		{
-			"type": "vcs",
-			"url": "https://github.com/chrisboulton/credis"
+		    "type": "vcs",
+		    "url": "https://github.com/chrisboulton/credis"
 		}
 	],
 	"require": {
