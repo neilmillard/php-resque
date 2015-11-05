@@ -14,12 +14,12 @@
 	"repositories": [
 		{
 		    "type": "vcs",
-		    "url": "https://github.com/chrisboulton/credis"
+		    "url": "https://github.com/colinmollenhour/credis"
 		}
 	],
 	"require": {
 		"php": ">=5.3.0",
-		"colinmollenhour/credis": "~1.2",
+		"colinmollenhour/credis": "dev-master",
 		"psr/log": "1.0.0"
 	},
 	"suggest": {
